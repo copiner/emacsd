@@ -1,0 +1,52 @@
+.container{
+    height: 390px;
+}
+.category{
+    background: #fff;
+}
+.singleCategory{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cell{
+    width: 20%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.img{
+    width: 6rem;
+}
+.name{
+    font-size: 2.2rem;
+    color: #7a7a79;
+    margin-top: 5px;
+}
+.spanContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 75px;
+}
+.spanOn{
+    display: inline-block;
+    background: #f5734b;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin:0 10px;
+}
+.spanOff{
+    display: inline-block;
+    background: #ccc;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin:0 10px;
+}
