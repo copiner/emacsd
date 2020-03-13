@@ -18,19 +18,18 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(global-set-key (kbd "C-c l") 'org-store-link)
-(global-set-key (kbd "C-c a") 'org-agenda)
-(global-set-key (kbd "C-c c") 'org-capture)
 
 (setq default-tab-width 4)
 (setq-default indent-tabs-mode nil)
 
 (setq make-backup-files nil)
 
-(add-to-list 'load-path "f:/neotree")
-(require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+;;agenda
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
 
+;;c-x o
 (global-set-key [(control tab)] 'other-window)
 
 ;;set transparent effect
@@ -46,3 +45,8 @@
     (setq alpha-list (cdr (append alpha-list (list h))))
     )
 )
+
+;;emacs-neotree
+(add-to-list 'load-path "f:/neotree")
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
