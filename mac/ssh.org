@@ -1,0 +1,14 @@
+* ssh
+  ssh -p 22 root@192.18.23.213 RET
+
+* emacs terminal
+  1. shell
+  2. eshell
+  3. term
+
+* romote file
+
+  + C-x C-f /ssh:user@host:file  
+
+  + /ssh:root@192.18.23.213:/home/
+
